@@ -9,7 +9,7 @@ const Sidebar = () => {
           <img
             src="https://biz.juspay.in/ardra-icons/img/juspay_logo.png"
             alt="Juspay Logo"
-            className="w-32 h-auto"
+            className="w-24 h-auto mx-auto mb-8"
           />
         </div>
         {/* Navigation Links */}
