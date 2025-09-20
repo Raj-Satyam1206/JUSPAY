@@ -5,7 +5,13 @@ const Sidebar = () => {
     <div className="w-64 min-h-screen bg-gray-900 text-white p-6 flex flex-col justify-between">
       {/* Logo / Brand */}
       <div>
-        <h1 className="text-2xl font-bold mb-10">Juspay</h1>
+        <div className="mb-10">
+          <img
+            src="https://biz.juspay.in/ardra-icons/img/juspay_logo.png"
+            alt="Juspay Logo"
+            className="w-32 h-auto"
+          />
+        </div>
         {/* Navigation Links */}
         <nav className="flex flex-col gap-4">
           <a href="#" className="hover:text-yellow-400">Dashboard</a>
