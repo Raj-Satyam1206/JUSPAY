@@ -3,6 +3,7 @@ import Sidebar from './components/Sidebar';
 import Topbar from './components/Topbar';
 import StatsGrid from './components/StatsGrid';
 import RevenueLineChart from './components/RevenueLineChart';
+import RevenueByLocation from './components/RevenueByLocation';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <div className="lg:col-span-2">
               <RevenueLineChart />
             </div>
+            <RevenueByLocation />
           </div>
         </main>
       </div>
