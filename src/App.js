@@ -4,6 +4,7 @@ import Topbar from './components/Topbar';
 import StatsGrid from './components/StatsGrid';
 import RevenueLineChart from './components/RevenueLineChart';
 import RevenueByLocation from './components/RevenueByLocation';
+import TotalSales from './components/TotalSales';
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
               <RevenueLineChart />
             </div>
             <RevenueByLocation />
+          </div>
+          <div className="mt-6">
+            <TotalSales />
           </div>
         </main>
       </div>
